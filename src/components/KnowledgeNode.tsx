@@ -3,6 +3,7 @@ import { useRef, useState } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { NodeType } from '../types/galaxy';
 import { Html } from '@react-three/drei';
+import * as THREE from 'three';
 
 interface KnowledgeNodeProps {
   position: [number, number, number];

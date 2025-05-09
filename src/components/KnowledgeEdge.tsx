@@ -2,6 +2,7 @@
 import { useRef, useMemo } from 'react';
 import { CatmullRomCurve3, Vector3 } from 'three';
 import { useFrame } from '@react-three/fiber';
+import * as THREE from 'three';
 
 interface KnowledgeEdgeProps {
   start: [number, number, number];

@@ -7,6 +7,7 @@ import KnowledgeNode from './KnowledgeNode';
 import KnowledgeEdge from './KnowledgeEdge';
 import NodeInfoPanel from './NodeInfoPanel';
 import ControlsPanel from './ControlsPanel';
+import * as THREE from 'three';
 
 interface KnowledgeGalaxyProps {
   data: GalaxyData;
